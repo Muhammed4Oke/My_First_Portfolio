@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Improving HTML Skills</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tweets Page</title>
 </head>
 <body>
-    <header>
-        <h1>Oke Muhammed</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tweets.html">Tweets</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="base_index.html">Profile</a></li>
-                <li><a href="base_index.html">About Me</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Tweets</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </nav>
+    <a href="index.html">Back to Home</a>
+  </header>
 
-    <main>
-        <article>
-            <h2>Breaking News</h2>
-            <p>A new software update has been released today with exciting features.</p>
-        </article>
+  <main>
+    <article>
+      <h2>Embedded Tweet</h2>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Hello world! This is my first embedded tweet.</p>
+        &mdash; Oke Muhammed (@okemuhammed)
+        <a href="https://twitter.com/okemuhammed/status/123456789">March 1, 2025</a>
+      </blockquote>
+    </article>
 
-        <aside>
-            <h3>Related Links</h3>
-            <ul>
-                <li><a href="tweets.html">Update Details</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-            <p>Here’s where the main content of the page goes.</p>
-        </aside>
-    </main>
+    <aside>
+      placeholder to add comment thread later
+    </aside>
+  </main>
 
-    <footer>
-        <p>
-            Made by OKE MUHAMMED - 
-            <a href="https://github.com/Muhammed4Oke/My_First_Portfolio" target="_blank">My GitHub</a>
-        </p>
-    </footer>
+  <footer>
+    <p>
+      Made by OKE MUHAMMED - 
+      <a href="https://github.com/Muhammed4Oke/My_First_Portfolio" target="_blank">My GitHub</a>
+    </p>
+  </footer>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>
